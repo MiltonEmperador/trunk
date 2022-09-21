@@ -1,0 +1,75 @@
+{
+	"version": 1,
+	"title": "Block theme",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "light",
+					"name": "Light",
+					"color": "#f5f7f9"
+				},
+				{
+					"slug": "dark",
+					"name": "Dark",
+					"color": "#000"
+				}
+			],
+			"gradients": [
+				{
+					"name": "Custom gradient",
+					"gradient": "linear-gradient(135deg,rgba(0,0,0) 0%,rgb(0,0,0) 100%)",
+					"slug": "custom-gradient"
+				}
+			],
+			"custom": false,
+			"customGradient": false
+		},
+		"typography": {
+			"fontSizes": [
+				{
+					"name": "Custom",
+					"slug": "custom",
+					"size": "100px"
+				}
+			],
+			"customFontSize": false,
+			"customLineHeight": true
+		},
+		"spacing": {
+			"units": ["rem"],
+			"customPadding": true
+		},
+		"blocks": {
+			"core/paragraph": {
+				"color": {
+					"palette": [
+						{
+							"slug": "light",
+							"name": "Light",
+							"color": "#f5f7f9"
+						}
+					]
+				}
+			}
+		}
+	},
+	"customTemplates": [
+		{
+			"name": "page-home",
+			"title": "Homepage template"
+		},
+		{
+			"name": "custom-single-post-template",
+			"title": "Custom Single Post template",
+			"postTypes": ["post"]
+		}
+	],
+	"templateParts": [
+		{
+			"name": "small-header",
+			"title": "Small Header",
+			"area": "header"
+		}
+	]
+}
